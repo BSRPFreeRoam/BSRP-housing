@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BSRP Housing</title>
+    <style>html,body{background:transparent!important}</style>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background:transparent!important">
+    <div id="app" class="hidden">
+        <div class="panel">
+            <div class="edge edge-top"></div>
+            <div class="edge edge-bottom"></div>
+            <div class="corner c-tl"></div>
+            <div class="corner c-tr"></div>
+            <div class="corner c-bl"></div>
+            <div class="corner c-br"></div>
+            <div class="glow-bar"></div>
+
+            <div class="badge"><span class="pulse"></span> PROPERTY</div>
+            <h1 id="title">HOUSE</h1>
+            <div class="tag" id="subtitle">TIER · PRICE</div>
+            <div class="brand-line"></div>
+
+            <div class="stats">
+                <div class="stat"><span>STATUS</span><b id="status">FOR SALE</b></div>
+                <div class="stat"><span>PRICE</span><b id="price">$0</b></div>
+                <div class="stat"><span>TIER</span><b id="tier">3</b></div>
+                <div class="stat"><span>LOCK</span><b id="lock">—</b></div>
+            </div>
+
+            <div class="actions" id="actions"></div>
+            <button type="button" class="btn danger" id="btnClose">CLOSE</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
